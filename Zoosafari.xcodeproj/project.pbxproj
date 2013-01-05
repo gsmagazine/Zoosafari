@@ -1,0 +1,499 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		83F790DE16988A5800A75F39 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83F790DD16988A5800A75F39 /* UIKit.framework */; };
+		83F790E016988A5800A75F39 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83F790DF16988A5800A75F39 /* Foundation.framework */; };
+		83F790E216988A5800A75F39 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83F790E116988A5800A75F39 /* CoreGraphics.framework */; };
+		83F790E816988A5800A75F39 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 83F790E616988A5800A75F39 /* InfoPlist.strings */; };
+		83F790EA16988A5800A75F39 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 83F790E916988A5800A75F39 /* main.m */; };
+		83F790EE16988A5800A75F39 /* it_zoosafariAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 83F790ED16988A5800A75F39 /* it_zoosafariAppDelegate.m */; };
+		83F790F016988A5800A75F39 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 83F790EF16988A5800A75F39 /* Default.png */; };
+		83F790F216988A5800A75F39 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83F790F116988A5800A75F39 /* Default@2x.png */; };
+		83F790F416988A5800A75F39 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83F790F316988A5800A75F39 /* Default-568h@2x.png */; };
+		83F790F716988A5800A75F39 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83F790F516988A5800A75F39 /* MainStoryboard_iPhone.storyboard */; };
+		83F790FA16988A5800A75F39 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83F790F816988A5800A75F39 /* MainStoryboard_iPad.storyboard */; };
+		83F790FD16988A5800A75F39 /* it_zoosafariFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83F790FC16988A5800A75F39 /* it_zoosafariFirstViewController.m */; };
+		83F790FF16988A5800A75F39 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 83F790FE16988A5800A75F39 /* first.png */; };
+		83F7910116988A5800A75F39 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83F7910016988A5800A75F39 /* first@2x.png */; };
+		83F7910416988A5800A75F39 /* it_zoosafariSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83F7910316988A5800A75F39 /* it_zoosafariSecondViewController.m */; };
+		83F7910616988A5800A75F39 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 83F7910516988A5800A75F39 /* second.png */; };
+		83F7910816988A5800A75F39 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83F7910716988A5800A75F39 /* second@2x.png */; };
+		83F7911016988A5800A75F39 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83F7910F16988A5800A75F39 /* SenTestingKit.framework */; };
+		83F7911116988A5800A75F39 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83F790DD16988A5800A75F39 /* UIKit.framework */; };
+		83F7911216988A5800A75F39 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83F790DF16988A5800A75F39 /* Foundation.framework */; };
+		83F7911A16988A5800A75F39 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 83F7911816988A5800A75F39 /* InfoPlist.strings */; };
+		83F7911D16988A5800A75F39 /* ZoosafariTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 83F7911C16988A5800A75F39 /* ZoosafariTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		83F7911316988A5800A75F39 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83F790D016988A5700A75F39 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83F790D816988A5800A75F39;
+			remoteInfo = Zoosafari;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		83F790D916988A5800A75F39 /* Zoosafari.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zoosafari.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		83F790DD16988A5800A75F39 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		83F790DF16988A5800A75F39 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		83F790E116988A5800A75F39 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		83F790E516988A5800A75F39 /* Zoosafari-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Zoosafari-Info.plist"; sourceTree = "<group>"; };
+		83F790E716988A5800A75F39 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		83F790E916988A5800A75F39 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		83F790EB16988A5800A75F39 /* Zoosafari-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Zoosafari-Prefix.pch"; sourceTree = "<group>"; };
+		83F790EC16988A5800A75F39 /* it_zoosafariAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = it_zoosafariAppDelegate.h; sourceTree = "<group>"; };
+		83F790ED16988A5800A75F39 /* it_zoosafariAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = it_zoosafariAppDelegate.m; sourceTree = "<group>"; };
+		83F790EF16988A5800A75F39 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		83F790F116988A5800A75F39 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		83F790F316988A5800A75F39 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		83F790F616988A5800A75F39 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		83F790F916988A5800A75F39 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		83F790FB16988A5800A75F39 /* it_zoosafariFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = it_zoosafariFirstViewController.h; sourceTree = "<group>"; };
+		83F790FC16988A5800A75F39 /* it_zoosafariFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = it_zoosafariFirstViewController.m; sourceTree = "<group>"; };
+		83F790FE16988A5800A75F39 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		83F7910016988A5800A75F39 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		83F7910216988A5800A75F39 /* it_zoosafariSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = it_zoosafariSecondViewController.h; sourceTree = "<group>"; };
+		83F7910316988A5800A75F39 /* it_zoosafariSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = it_zoosafariSecondViewController.m; sourceTree = "<group>"; };
+		83F7910516988A5800A75F39 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		83F7910716988A5800A75F39 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		83F7910E16988A5800A75F39 /* ZoosafariTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZoosafariTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		83F7910F16988A5800A75F39 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		83F7911716988A5800A75F39 /* ZoosafariTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ZoosafariTests-Info.plist"; sourceTree = "<group>"; };
+		83F7911916988A5800A75F39 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		83F7911B16988A5800A75F39 /* ZoosafariTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZoosafariTests.h; sourceTree = "<group>"; };
+		83F7911C16988A5800A75F39 /* ZoosafariTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZoosafariTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		83F790D616988A5800A75F39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83F790DE16988A5800A75F39 /* UIKit.framework in Frameworks */,
+				83F790E016988A5800A75F39 /* Foundation.framework in Frameworks */,
+				83F790E216988A5800A75F39 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83F7910A16988A5800A75F39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83F7911016988A5800A75F39 /* SenTestingKit.framework in Frameworks */,
+				83F7911116988A5800A75F39 /* UIKit.framework in Frameworks */,
+				83F7911216988A5800A75F39 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		83F790CE16988A5700A75F39 = {
+			isa = PBXGroup;
+			children = (
+				83F790E316988A5800A75F39 /* Zoosafari */,
+				83F7911516988A5800A75F39 /* ZoosafariTests */,
+				83F790DC16988A5800A75F39 /* Frameworks */,
+				83F790DA16988A5800A75F39 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		83F790DA16988A5800A75F39 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				83F790D916988A5800A75F39 /* Zoosafari.app */,
+				83F7910E16988A5800A75F39 /* ZoosafariTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		83F790DC16988A5800A75F39 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				83F790DD16988A5800A75F39 /* UIKit.framework */,
+				83F790DF16988A5800A75F39 /* Foundation.framework */,
+				83F790E116988A5800A75F39 /* CoreGraphics.framework */,
+				83F7910F16988A5800A75F39 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		83F790E316988A5800A75F39 /* Zoosafari */ = {
+			isa = PBXGroup;
+			children = (
+				83F790EC16988A5800A75F39 /* it_zoosafariAppDelegate.h */,
+				83F790ED16988A5800A75F39 /* it_zoosafariAppDelegate.m */,
+				83F790F516988A5800A75F39 /* MainStoryboard_iPhone.storyboard */,
+				83F790F816988A5800A75F39 /* MainStoryboard_iPad.storyboard */,
+				83F790FB16988A5800A75F39 /* it_zoosafariFirstViewController.h */,
+				83F790FC16988A5800A75F39 /* it_zoosafariFirstViewController.m */,
+				83F790FE16988A5800A75F39 /* first.png */,
+				83F7910016988A5800A75F39 /* first@2x.png */,
+				83F7910216988A5800A75F39 /* it_zoosafariSecondViewController.h */,
+				83F7910316988A5800A75F39 /* it_zoosafariSecondViewController.m */,
+				83F7910516988A5800A75F39 /* second.png */,
+				83F7910716988A5800A75F39 /* second@2x.png */,
+				83F790E416988A5800A75F39 /* Supporting Files */,
+			);
+			path = Zoosafari;
+			sourceTree = "<group>";
+		};
+		83F790E416988A5800A75F39 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				83F790E516988A5800A75F39 /* Zoosafari-Info.plist */,
+				83F790E616988A5800A75F39 /* InfoPlist.strings */,
+				83F790E916988A5800A75F39 /* main.m */,
+				83F790EB16988A5800A75F39 /* Zoosafari-Prefix.pch */,
+				83F790EF16988A5800A75F39 /* Default.png */,
+				83F790F116988A5800A75F39 /* Default@2x.png */,
+				83F790F316988A5800A75F39 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		83F7911516988A5800A75F39 /* ZoosafariTests */ = {
+			isa = PBXGroup;
+			children = (
+				83F7911B16988A5800A75F39 /* ZoosafariTests.h */,
+				83F7911C16988A5800A75F39 /* ZoosafariTests.m */,
+				83F7911616988A5800A75F39 /* Supporting Files */,
+			);
+			path = ZoosafariTests;
+			sourceTree = "<group>";
+		};
+		83F7911616988A5800A75F39 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				83F7911716988A5800A75F39 /* ZoosafariTests-Info.plist */,
+				83F7911816988A5800A75F39 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		83F790D816988A5800A75F39 /* Zoosafari */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83F7912016988A5800A75F39 /* Build configuration list for PBXNativeTarget "Zoosafari" */;
+			buildPhases = (
+				83F790D516988A5800A75F39 /* Sources */,
+				83F790D616988A5800A75F39 /* Frameworks */,
+				83F790D716988A5800A75F39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Zoosafari;
+			productName = Zoosafari;
+			productReference = 83F790D916988A5800A75F39 /* Zoosafari.app */;
+			productType = "com.apple.product-type.application";
+		};
+		83F7910D16988A5800A75F39 /* ZoosafariTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83F7912316988A5800A75F39 /* Build configuration list for PBXNativeTarget "ZoosafariTests" */;
+			buildPhases = (
+				83F7910916988A5800A75F39 /* Sources */,
+				83F7910A16988A5800A75F39 /* Frameworks */,
+				83F7910B16988A5800A75F39 /* Resources */,
+				83F7910C16988A5800A75F39 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83F7911416988A5800A75F39 /* PBXTargetDependency */,
+			);
+			name = ZoosafariTests;
+			productName = ZoosafariTests;
+			productReference = 83F7910E16988A5800A75F39 /* ZoosafariTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83F790D016988A5700A75F39 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = it.zoosafari;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Giuseppe Ancona";
+			};
+			buildConfigurationList = 83F790D316988A5700A75F39 /* Build configuration list for PBXProject "Zoosafari" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 83F790CE16988A5700A75F39;
+			productRefGroup = 83F790DA16988A5800A75F39 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				83F790D816988A5800A75F39 /* Zoosafari */,
+				83F7910D16988A5800A75F39 /* ZoosafariTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		83F790D716988A5800A75F39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83F790E816988A5800A75F39 /* InfoPlist.strings in Resources */,
+				83F790F016988A5800A75F39 /* Default.png in Resources */,
+				83F790F216988A5800A75F39 /* Default@2x.png in Resources */,
+				83F790F416988A5800A75F39 /* Default-568h@2x.png in Resources */,
+				83F790F716988A5800A75F39 /* MainStoryboard_iPhone.storyboard in Resources */,
+				83F790FA16988A5800A75F39 /* MainStoryboard_iPad.storyboard in Resources */,
+				83F790FF16988A5800A75F39 /* first.png in Resources */,
+				83F7910116988A5800A75F39 /* first@2x.png in Resources */,
+				83F7910616988A5800A75F39 /* second.png in Resources */,
+				83F7910816988A5800A75F39 /* second@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83F7910B16988A5800A75F39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83F7911A16988A5800A75F39 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		83F7910C16988A5800A75F39 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		83F790D516988A5800A75F39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83F790EA16988A5800A75F39 /* main.m in Sources */,
+				83F790EE16988A5800A75F39 /* it_zoosafariAppDelegate.m in Sources */,
+				83F790FD16988A5800A75F39 /* it_zoosafariFirstViewController.m in Sources */,
+				83F7910416988A5800A75F39 /* it_zoosafariSecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83F7910916988A5800A75F39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83F7911D16988A5800A75F39 /* ZoosafariTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		83F7911416988A5800A75F39 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 83F790D816988A5800A75F39 /* Zoosafari */;
+			targetProxy = 83F7911316988A5800A75F39 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		83F790E616988A5800A75F39 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83F790E716988A5800A75F39 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		83F790F516988A5800A75F39 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83F790F616988A5800A75F39 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		83F790F816988A5800A75F39 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83F790F916988A5800A75F39 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		83F7911816988A5800A75F39 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83F7911916988A5800A75F39 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		83F7911E16988A5800A75F39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		83F7911F16988A5800A75F39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		83F7912116988A5800A75F39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Zoosafari/Zoosafari-Prefix.pch";
+				INFOPLIST_FILE = "Zoosafari/Zoosafari-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		83F7912216988A5800A75F39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Zoosafari/Zoosafari-Prefix.pch";
+				INFOPLIST_FILE = "Zoosafari/Zoosafari-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		83F7912416988A5800A75F39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Zoosafari.app/Zoosafari";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Zoosafari/Zoosafari-Prefix.pch";
+				INFOPLIST_FILE = "ZoosafariTests/ZoosafariTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		83F7912516988A5800A75F39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Zoosafari.app/Zoosafari";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Zoosafari/Zoosafari-Prefix.pch";
+				INFOPLIST_FILE = "ZoosafariTests/ZoosafariTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		83F790D316988A5700A75F39 /* Build configuration list for PBXProject "Zoosafari" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83F7911E16988A5800A75F39 /* Debug */,
+				83F7911F16988A5800A75F39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83F7912016988A5800A75F39 /* Build configuration list for PBXNativeTarget "Zoosafari" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83F7912116988A5800A75F39 /* Debug */,
+				83F7912216988A5800A75F39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		83F7912316988A5800A75F39 /* Build configuration list for PBXNativeTarget "ZoosafariTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83F7912416988A5800A75F39 /* Debug */,
+				83F7912516988A5800A75F39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83F790D016988A5700A75F39 /* Project object */;
+}
